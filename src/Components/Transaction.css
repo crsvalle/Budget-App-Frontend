@@ -1,0 +1,12 @@
+.transaction{
+   height: 90px;
+   border-bottom: 1px solid;
+   padding: 1px;
+}
+
+.red:hover{
+    color: red;
+}
+.green:hover{
+    color: green;
+}

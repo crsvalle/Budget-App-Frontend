@@ -1,0 +1,40 @@
+.labelSection{
+    display: flex;
+    flex-direction:column;
+    margin-bottom: 10px;
+}
+
+
+.labelSection > input{
+    box-sizing: border-box;
+    padding: 12px 12px;
+}
+
+.labelSection > select{
+    padding: 12px 12px;
+}
+
+label{
+    margin-bottom: 5px;
+}
+
+.submit{
+    background-color: #0066A2;
+    color: white;
+    border-style: outset;
+    border-color: #0066A2;
+    height: 40px;
+    width: 80px;
+    font: bold 15px arial, sans-serif;
+    text-shadow: none;
+    transition-duration: 0.3s;
+}
+
+.submit:hover{
+    cursor: pointer;
+    transform: scale(1.02);
+}
+
+.submit:active{
+    background-color: white;
+}

@@ -1,0 +1,55 @@
+nav{
+    background: whitesmoke;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 1em;
+    box-shadow: 2px 2px 4px grey ;
+    margin-bottom: 50px;
+    border-radius: 3%;
+}
+
+.left{
+    display: flex;
+}
+
+.add{
+    margin-left: 10px;
+    border: none;
+    font-size: 16px;
+    font-weight: 500;
+    color: black;
+    background-color: whitesmoke;
+}
+
+.addTrans{
+    padding: 9px 25px;
+    background-color: rgba(224, 255, 255, 1);
+    border: none;
+    border-radius: 50px;
+    transition: all 0.3s ease 0s;
+    color: black;
+}
+.homeButton{
+    padding: 9px 25px;
+    border: none;
+    border-radius: 50px;
+    transition: all 0.3s ease 0s;
+    color: black;
+}
+
+.addTrans:hover{
+    background-color: rgba(224, 255, 255, 0.3);
+}
+
+.addTrans:active{
+    color: white;
+}
+
+.homeButton:hover{ 
+    color: grey;
+}
+
+.homeButton:active{
+    color: white;
+}

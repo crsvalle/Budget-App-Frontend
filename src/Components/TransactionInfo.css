@@ -1,0 +1,31 @@
+.bigBox{
+    border: 1px solid;
+    margin-bottom: 4px;
+    padding: 6px;
+}
+
+.showNavigation{
+    display: flex;
+}
+.navButton{
+    margin-right: 4px;
+}
+
+.navButton{
+    background-color: white;
+    color: black;
+    transition-duration: 0.4s;
+}
+
+.navButton:hover{
+    background-color: black;
+    color: white;
+    box-shadow: 3px 3px 3px grey;
+    cursor: pointer;
+
+}
+
+.header{
+    display: flex;
+    justify-content: space-between;
+}

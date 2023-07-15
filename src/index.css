@@ -11,3 +11,30 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+table {
+  width: 100%;
+  margin: auto;
+  border-collapse: collapse;
+}
+
+td {
+  text-align: center;
+}
+tbody tr:nth-child(odd) {
+  background: lightcyan;
+}
+
+.link{
+  text-decoration: none;
+}
+
+.itemName{
+  color: black;
+}
+
+tbody td:not(td:first-of-type):not(td:last-child):hover {
+  transform: scale(1.05);
+  opacity: 0.9;
+}
+
