@@ -1,6 +1,6 @@
-# Getting Started with Create React App
+# Budget App
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+This project will only work with the backend: https://github.com/crsvalle/Budget-App-Backend.
 
 ## Available Scripts
 
